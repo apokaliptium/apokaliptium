@@ -1,0 +1,32 @@
+{
+  "name": "apokaliptium",
+  "version": "0.0.0",
+  "description": "OMNIS_MORIATUR",
+  "keywords": [
+    "apokaliptium",
+    "redscope",
+    "technologies",
+    "apokryf",
+    "inceptorium",
+    "radio",
+    "kocia",
+    "muzyka"
+  ],
+  "homepage": "https://www.apokaliptium.online/",
+  "bugs": {
+    "url": "https://github.com/apokaliptium/apokaliptium/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apokaliptium/apokaliptium.git"
+  },
+  "author": "Sett Sarverott",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "task test"
+  }
+}

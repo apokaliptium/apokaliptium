@@ -1,0 +1,9 @@
+[project]
+name = "apokaliptium"
+version = "0.1.0"
+description = "OMNIS_MORIATUR"
+authors = [
+    { name = "Sett Sarverott", email = "sett@sarverott.com" }
+]
+requires-python = ">=3.12"
+dependencies = []

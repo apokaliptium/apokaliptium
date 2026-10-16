@@ -1,0 +1,27 @@
+version: 1
+validation: sovereign
+default_denom: soulshard
+accounts: 
+- name: alice
+  coins:
+  - 20000token
+  - 200000000soulshard
+- name: bob
+  coins:
+  - 10000token
+  - 100000000soulshard
+client:
+  openapi:
+    path: docs/static/openapi.json
+faucet:
+  name: bob
+  coins:
+  - 5token
+  - 100000soulshard
+validators:
+- name: alice
+  bonded: 100000000soulshard
+- name: validator1
+  bonded: 200000000soulshard
+- name: validator2
+  bonded: 100000000soulshard
