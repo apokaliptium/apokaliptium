@@ -15,7 +15,6 @@ replace (
 require (
 	cosmossdk.io/api v1.1.0
 	cosmossdk.io/client/v2 v2.11.0
-	cosmossdk.io/collections v1.4.0
 	cosmossdk.io/core v1.1.0
 	cosmossdk.io/depinject v1.2.1
 	cosmossdk.io/log/v2 v2.1.0
@@ -54,6 +53,7 @@ require (
 	cel.dev/expr v0.25.3 // indirect
 	connectrpc.com/connect/v2 v2.0.1 // indirect
 	connectrpc.com/otelconnect v0.11.0 // indirect
+	cosmossdk.io/collections v1.4.0 // indirect
 	cosmossdk.io/errors v1.1.0 // indirect
 	cosmossdk.io/schema v1.1.0 // indirect
 	filippo.io/bigmod v0.1.1-0.20260103110540-f8a47775ebe5 // indirect
@@ -430,8 +430,8 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp v0.20.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.44.0 // indirect
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.44.0 // indirect
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.44.0 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.45.0 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.45.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/stdout/stdoutlog v0.20.0 // indirect
 	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.44.0 // indirect
@@ -442,7 +442,7 @@ require (
 	go.opentelemetry.io/otel/sdk/log v0.20.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.47.0 // indirect
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
-	go.opentelemetry.io/proto/otlp v1.10.0 // indirect
+	go.opentelemetry.io/proto/otlp v1.11.0 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/dig v1.19.0 // indirect
 	go.uber.org/fx v1.24.0 // indirect
